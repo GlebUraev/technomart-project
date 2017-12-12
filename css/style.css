@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-	width: 960px;
+	width: 940px;
 	padding-left: 10px;
 	padding-right: 10px;
 	margin: 0 auto;
@@ -28,12 +28,14 @@ body {
 
 .header-top a {
 	line-height: 42px;
+	font-size: 17px;
 }
 
 .technomart-logo {
 	position: relative;
 	width: 220px;
 	float: left;
+	font-size: 24px;
 	line-height: 42px;
 	background-color: #ee3643;
 	text-align: center;
@@ -54,9 +56,10 @@ body {
 
 .search {
 	content: "";
-	position: relative;
 	border: 0px;
-	width: 270px;
+	width: 220px;
+	margin: 0;
+	
 	padding: 0px;
 	padding-left: 50px;
 	background-color: #293449;
@@ -89,9 +92,103 @@ body {
 }
 
 .search-label {
+	position: absolute;
+	left: 50px;
+	top: 12px;
+	font-size: 17px;
+}
+
+.header-bookmarks,
+.header-cart {
+	display: inline-block;
 	position: relative;
-	left: -275px;
+	box-sizing: border-box;
+	width: 150px;
+	height: 43px;
+	padding-left: 45px;
+}
+
+.header-bookmarks::after {
+	display: inline-block;
+	position: absolute;
+	content: '';
+	width: 14px;
+	height: 16px;
+	left: 18px;;
+	top: 12px;
+	background-image: url(../img/icons/bookmark.png);
+	opacity: 0.3;
+}
+
+.header-cart::after {
+	display: inline-block;
+	position: absolute;
+	content: '';
+	width: 17px;
+	height: 16px;
+	left: 14px;;
+	top: 12px;
+	background-image: url(../img/icons/cart.png);
+	opacity: 0.3;
+}
+
+.header-top-menu a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.header-order {
+	display: inline-block;
+	width: 150px;
+	height: 43px;
+	background-color: #63a63e;
+	text-align: center;
+}
+
+.header-order:hover {
+	background-color: #5fbb2d;
+}
+
+.header-order:active {
+	background-color: #518534;
+	color: rgba(255,255,255, 0.6)
+}
+
+.search:hover,
+.header-bookmarks:hover,
+.header-cart:hover {
+	background-color: #212a3a;
+}
+
+.header-bookmarks:hover::after,
+.header-cart:hover::after{
+	opacity: 1;
+}
+
+.header-bookmarks:active,
+.header-cart:active {
+	background-color: #161d29;
+	color: rgba(255,255,255, 0.6)
+}
+
+.header-bookmarks:active::after,
+.header-cart:active::after {
+	opacity: 0.5;
 }
 
 
 
+
+.header-top-menu {
+	font-size: 0px;
+}
+
+.containerH {
+	font-size: 0;
+}
+
+.search-form {
+	display: inline-block;
+	position: relative;
+	font-size: 0;
+}
