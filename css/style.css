@@ -296,3 +296,36 @@ body {
 	width: 150px;
 	padding-left: 25px;
 }
+
+.menu-list {
+	padding: 0;
+	margin: 0;
+}
+
+.menu-list li {
+	display: inline-block;
+}
+
+.menu-list a {
+	display: inline-block;
+	text-decoration: none;
+	color: #ffffff;	
+	line-height: 55px;
+	background-color: #32425c;
+	padding-left: 31px;
+	padding-right: 32px;
+	margin-right: -5px;
+	border-bottom: 5px solid #293449;
+}
+
+.menu-list li a:hover {
+	background-color: #32425c;
+}
+
+.menu-list li:first-child a {
+	padding-left: 50px;
+}
+
+.menu-list li:last-child a {
+	padding-right: 50px;
+}
