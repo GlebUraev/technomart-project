@@ -262,6 +262,10 @@ body {
 	color:#ee3643;
 }
 
+.btn-user:active {
+	color: rgba(0,0,0, 0.3);
+}
+
 .user-login {
 	position: relative;
 	box-sizing: border-box;
