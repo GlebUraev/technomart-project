@@ -24,7 +24,6 @@ body {
 	background-color: #293449;
 	vertical-align: middle;
 	color: #ffffff;
-	margin-bottom: 45px;
 }
 
 .header-top a {
@@ -192,103 +191,4 @@ body {
 	display: inline-block;
 	position: relative;
 	font-size: 0;
-}
-
-.header-middle-about {
-	display: inline-block;
-	float: left;
-	width: 200px;
-	padding: 0;
-	margin: 0;
-	margin-left: 55px;
-	margin-right: 70px;
-	font-size: 16px;
-	line-height: 23px;
-	font-style: italic;
-	color: #ee3643;
-}
-
-.header-contacts {
-	display: inline-block;
-	float: left;
-	margin-right: 65px;
-}
-
-.header-contacts-phone {
-	position: relative;
-	box-sizing: border-box;
-	width: 270px;
-	height: 45px;
-	border: 3px solid #ffffff;
-	padding: 10px;
-	padding-left: 70px;
-	font-size: 21px;
-	color: #e9292a;
-	vertical-align: middle;
-}
-
-.header-contacts-phone::before {
-	display: inline-block;
-	position: absolute;
-	width: 19px;
-	height: 19px;
-	left: 10px;
-	top: 10px;
-	content:'';
-	background-image: url(../img/icons/phone.png);
-}
-
-.header-contacts-address {
-	font-size: 14px;
-	line-height: 24px;
-	color: #32425c;
-}
-
-.user-block {
-	display: inline-block;
-}
-
-.btn-user {
-	display: inline-block;
-	text-decoration: none;
-	color: #000000;
-	font-size: 21px;
-	line-height: 45px;
-	background-color: #ffffff;
-	vertical-align: middle;
-}
-
-.btn-user:hover {
-	color:#ee3643;
-}
-
-.user-login {
-	position: relative;
-	box-sizing: border-box;
-	width: 120px;
-	margin-right: 5px;
-	padding: 0;
-	padding-left: 50px;
-}
-
-.btn-user:hover::after {
-	background-image: url(../img/icons/login-hover.png);
-}
-
-.user-login::after{
-	display: inline-block;
-	position: relative;
-	content: '';
-	width: 20px;
-	height: 17px;
-	left: -80px;
-	background-image: url(../img/icons/login.png);
-	background-position: 0 0;
-	background-repeat: no-repeat;
-}
-
-.user-registration {
-	box-sizing: border-box;
-	width: 150px;
-	padding-left: 25px;
 }
